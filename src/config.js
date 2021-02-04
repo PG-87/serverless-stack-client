@@ -1,11 +1,13 @@
 const config = {
+    STRIPE_KEY: "pk_test_51IGODZFeB15YGyd8GZmAIOmsWfHh8CdIiOG1XjtvQteX9dcSzxFjIDKmtjm8DvdpmZivdiIRWusMJnWUbM7i9J8D00YZq9QzIT",
+    MAX_ATTACHMENT_SIZE: 5000000,
     s3: {
         REGION: "us-east-1",
         BUCKET: "notes-api-prod-serverlessdeploymentbucket-125ittyvyw7uz",
     },
     apiGateway: {
         REGION: "us-east-1",
-        URL: "https://3fhx8k0uyc.execute-api.us-east-1.amazonaws.com/prod/notes",
+        URL: "https://3fhx8k0uyc.execute-api.us-east-1.amazonaws.com/prod",
     },
     cognito: {
         REGION: "us-east-2",
